@@ -3,7 +3,7 @@
     name = Arkadiusz Fal
     signingkey = C864CCF8
 [core]
-    excludesfile = /Users/Arek/.gitignore
+	excludesfile = /Users/Arek/.gitignore
     fileMode = 0
     editor = subl -n -w
     ignorecase = false
@@ -45,7 +45,7 @@
     compactionHeuristic = 1
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true

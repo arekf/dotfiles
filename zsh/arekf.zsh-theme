@@ -3,7 +3,7 @@ function collapse_pwd {
 }
 
 PROMPT='
-%{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%} as %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[cyan]%}%m%{$reset_color%}$(git_prompt_info) using %{$fg[magenta]%}$(rvm-prompt i v p g)%{$reset_color%}
+%{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%} as %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[cyan]%}%m%{$reset_color%}$(git_prompt_info) using %{$fg[blue]%}$(rvm-prompt i v p g)%{$reset_color%}
 %{$fg[yellow]%}>%{$reset_color%} '
 
 RPROMPT='%{$fg[yellow]%}[$(date +"%H:%M:%S")]%{$reset_color%}'

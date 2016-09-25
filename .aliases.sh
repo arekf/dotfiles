@@ -12,6 +12,10 @@ alias mktar='tar -cvzf'
 alias pubkey='pbcopy < ~/.ssh/id_rsa.pub'
 alias size='du -sh *'
 
+# development
+alias invoker_start='invoker start -d ~/Sites/devbox/invoker.ini'
+alias invoker_edit='edit ~/Sites/devbox/invoker.ini'
+
 # oh-my-zsh specific
 alias editaliases='subl ~/.aliases.sh'
 alias editprofile='subl ~/.zshrc'
