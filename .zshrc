@@ -51,7 +51,7 @@ ZSH_THEME="arekf"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git rails vagrant)
+plugins=(brew git rails rvm vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,3 +88,5 @@ function git_prompt_info() {
   echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
