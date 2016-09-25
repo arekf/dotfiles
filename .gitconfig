@@ -1,0 +1,52 @@
+[user]
+    email = arek@arekf.net
+    name = Arkadiusz Fal
+    signingkey = C864CCF8
+[core]
+    excludesfile = /Users/Arek/.gitignore
+    fileMode = 0
+    editor = subl -n -w
+    ignorecase = false
+    pager = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight | less
+[help]
+    autocorrect = 1
+[alias]
+    c = commit
+    co = checkout
+    st = status -sbu
+    d = diff
+    m = merge
+    p = pull
+    f = fetch
+    r = rebase
+    l = log
+    can = commit --amend --no-edit
+    unstage = reset HEAD --
+    diffbranches = log --left-right --graph --cherry-pick --oneline
+[push]
+    default = current
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red
+    new = cyan
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[diff]
+    compactionHeuristic = 1
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
