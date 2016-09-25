@@ -7,7 +7,6 @@
     fileMode = 0
     editor = subl -n -w
     ignorecase = false
-    pager = /usr/local/opt/git/share/git-core/contrib/diff-highlight/diff-highlight | less
 [help]
     autocorrect = 1
 [alias]
@@ -46,7 +45,7 @@
     compactionHeuristic = 1
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
