@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=/usr/local/opt/php70/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$(echo ~arek)/.oh-my-zsh
@@ -51,7 +51,7 @@ ZSH_THEME="arekf"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git rails rvm vagrant)
+plugins=(brew git rails rvm vagrant zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
