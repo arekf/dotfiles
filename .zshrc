@@ -51,7 +51,7 @@ ZSH_THEME="arekf"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git rails rvm vagrant zsh-autosuggestions)
+plugins=(brew git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
