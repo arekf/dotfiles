@@ -27,16 +27,16 @@ alias edittheme='subl ~/.oh-my-zsh/themes/arekf.zsh-theme'
 
 # macOS specific
 function lock_the_dock {
-    defaults write com.apple.Dock position-immutable -bool yes;
-    defaults write com.apple.Dock contents-immutable -bool yes;
-    defaults write com.apple.Dock size-immutable -bool yes;
+    defaults write com.apple.dock position-immutable -bool yes;
+    defaults write com.apple.dock contents-immutable -bool yes;
+    defaults write com.apple.dock size-immutable -bool yes;
     killall Dock
 }
 
 function unlock_the_dock {
-    defaults write com.apple.Dock position-immutable -bool no;
-    defaults write com.apple.Dock contents-immutable -bool no;
-    defaults write com.apple.Dock size-immutable -bool no;
+    defaults write com.apple.dock position-immutable -bool no;
+    defaults write com.apple.dock contents-immutable -bool no;
+    defaults write com.apple.dock size-immutable -bool no;
     killall Dock
 }
 
