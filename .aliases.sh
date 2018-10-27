@@ -12,6 +12,9 @@ alias mktar='tar -cvzf'
 alias pubkey='pbcopy < ~/.ssh/id_rsa.pub'
 alias size='du -sh *'
 
+alias s='cd ~/Sites'
+alias be='bundle exec'
+
 # devops
 alias no_key_ssh='ssh -o PreferredAuthentications=keyboard-interactive,password -o PubkeyAuthentication=no'
 

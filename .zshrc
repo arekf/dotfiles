@@ -81,7 +81,9 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 
+export EDITOR='mine'
 source ~/.aliases.sh
+source ~/Documents/Projects/dotfiles/z/z.sh
 
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
