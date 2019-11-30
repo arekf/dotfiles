@@ -48,5 +48,5 @@ alias f='open -a Finder ./'
 alias flushdnscache='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;'
 
 # home stuff
-alias rpi='ssh pi@192.168.1.200'
-alias srv='ssh arek@srv.local'
+alias rpi='ssh pi@rpi'
+alias apc='ssh arek@apc'

@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 
-export EDITOR='mine'
+export EDITOR='subl -w'
 source ~/.aliases.sh
 source ~/Documents/Projects/dotfiles/z/z.sh
 
