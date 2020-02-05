@@ -7,11 +7,15 @@ alias which='type -a'
 
 alias ..='cd ../'
 alias c='clear'
+alias cdr='cd $(git rev-parse --show-toplevel)'
 alias edit='subl'
 alias mktar='tar -cvzf'
 alias pubkey='pbcopy < ~/.ssh/id_rsa.pub'
 alias size='du -sh *'
 
+alias gc='git commit'
+alias gs='git st'
+alias gco='git co'
 alias s='cd ~/Sites'
 alias be='bundle exec'
 
